@@ -1,0 +1,48 @@
+.blog-container{
+    background-color: #F1F5F9;
+    padding: 20px;
+    width: 550px;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+
+}
+
+.image-container{
+    margin-bottom: 1rem;
+}
+
+.image{
+    border-radius: 2rem;
+
+}
+
+.bottom-container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+
+
+}
+
+.title{
+    width: 330px;
+    background-color: #FFF;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.avatar-container{
+    justify-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 3rem;
+    overflow-wrap: break-word;
+
+}
+

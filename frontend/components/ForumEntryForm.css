@@ -1,0 +1,38 @@
+.title {
+    width: calc(100% - 1.5rem);
+    height: 2rem;
+    resize: none;
+    padding-left: 1rem;
+    border: 1px solid #D8D8D8;;
+    border-radius: 1rem;
+    padding-top: 2px;
+    margin: 0.5rem 0.5rem 0.2rem;
+    font-weight: bold;
+    background-color: #d0D3D7;
+
+}
+
+.message-box {
+    width: calc(100% - 1.5rem);
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow-wrap: break-word;
+    height: 150px;
+    resize: none;
+
+    background-color: #d0D3D7;
+}
+
+.send-button {
+    width: calc(100% - 1.5rem);
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: #c0C2C6;
+
+}
+
+.send-button:hover{
+    background-color: #D1D3D7;
+}

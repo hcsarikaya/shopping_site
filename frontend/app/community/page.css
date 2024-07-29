@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    color: #18181B;
+    margin: 0;
+    padding: 0;
+    background: #F4F4F5;
+}
+
+
+.scroll-area {
+    width: 450px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+    height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #F4F4F5;
+
+}
+
+.input-area {
+    resize: none;
+    width: calc(100% - 5rem);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background: #c0C2C6;
+    border-radius: 2rem;
+}
+
+.submit-button{
+    background: #F4F4F5;
+    position: relative;
+    left: 710px;
+    top: -63px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.submit-button:hover{
+    background: #E3E3E4;
+}
+.entry{
+    position: absolute;
+    width: calc(100% - 44.5rem);
+    bottom: 90px;
+    height: 40px;
+}
+
+
+.scroll-area h1 {
+    width: calc(100% - 1.5rem);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px 15px 20px;
+    background-color: #C0C2C6;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.forum-page {
+    width: 100%;
+    height: 700px;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+
+.forum-page h2 {
+    background: #c0C2C6;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+    font-size: 22px;
+    width: calc(100% - 5rem);
+    overflow-wrap: anywhere;
+    overflow-y: hidden;
+}
+
+.forum-header {
+    margin-bottom: 2rem;
+}
+
+.forum-entries {
+    border: 3px solid #c0C2C6;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: calc(100% - 5rem);
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

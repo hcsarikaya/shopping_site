@@ -1,0 +1,22 @@
+.forum-page-entry{
+    padding: 1rem;
+    overflow-wrap: break-word;
+    background: #F4F4F5;
+    width: calc(100% - 5rem);
+    color: #18181B;
+    border-radius: 2rem;
+    border: 2px solid #C0C2C6;
+    margin-bottom: 0.5rem;
+}
+.forum-page-entry .date{
+    text-align: right;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+.forum-page-entry .username{
+    text-align: right;
+    padding-right: 4rem;
+    margin-bottom: 0;
+}

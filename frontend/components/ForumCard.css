@@ -1,0 +1,14 @@
+.forum-card{
+    background: #C0C2C6;
+    overflow-wrap: break-word;
+    width: calc(100% - 1.5rem);
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.forum-card:hover{
+    background: #D1D3D7;
+}
